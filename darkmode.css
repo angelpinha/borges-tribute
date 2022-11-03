@@ -1,0 +1,61 @@
+body {
+  --text-color: var(--bs-dark);
+  --bkg-color: var(--bs-light);
+  --btn-bg: black;
+  --btn-fg: var(--bs-light);
+  --bs-link-color: var(--bs-red);
+}
+
+body.dark-theme {
+  --text-color: var(--bs-light);
+  --bkg-color: var(--bs-dark);
+  --btn-bg: var(--bs-light);
+  --btn-fg: black;
+  --bs-link-color: var(--bs-orange);
+}
+
+body .social {
+  color: black;
+}
+
+body.dark-theme .social {
+  color: var(--bs-light);
+}
+
+body .alert {
+  background-color: transparent;
+}
+
+* {
+  font-family: monospace;
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+h1,
+p,
+hr,
+pre {
+  color: var(--text-color);
+}
+
+a, 
+a:hover,
+a:visited,
+a:active {
+  color: var(--bs-link-color);
+  
+  text-decoration: none;
+}
+
+#topbar .btn-toggle {
+  color: var(--btn-fg);
+  background-color: var(--btn-bg);
+}
+
+.bottomleft #scroller {
+  color: var(--btn-fg);
+  background-color: var(--btn-bg);
+}
