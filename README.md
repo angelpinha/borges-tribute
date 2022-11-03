@@ -1,5 +1,4 @@
 # Jorge Luis Borges
----
 
 _Personal Project:_ A brief introduction to Jorge Luis Borges.
 
